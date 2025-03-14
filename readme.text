@@ -1,0 +1,1 @@
+simples criação de uma classe sobre um objeto do mundo real com aplicação de atributos
