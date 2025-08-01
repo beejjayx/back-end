@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html">
+<h:head><title>Cadastro</title></h:head>
+<h:body>
+  <h:form>
+    <h:outputLabel for="nome" value="Nome:" />
+    <h:inputText id="nome" value="#{cadastroBean.usuario.nome}" />
+
+    <h:outputLabel for="email" value="Email:" />
+    <h:inputText id="email" value="#{cadastroBean.usuario.email}" />
+
+    <h:commandButton value="Salvar" action="#{cadastroBean.salvar}" />
+  </h:form>
+</h:body>
+</html>
